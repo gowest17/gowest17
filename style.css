@@ -226,15 +226,16 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	/*background-image: url("assets/images/head-featured-bg.jpg");*/
 	display: inline;
 	float: left;
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-color: #6cc0a8
 }
 
 .mu-hero-overlay {
@@ -257,9 +258,11 @@ button:focus {
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	font-weight: 600;
-	background: #fff;
+	/*background: #fff;*/
 	padding: 5px 20px;
 	margin-bottom: 30px;
+	width: 80%;
+	max-width:850px;
 }
 
 
@@ -1509,9 +1512,9 @@ button:focus {
 
 @media (max-width: 767px) {
 
-	.mu-logo img {
+	/*.mu-logo img {
 		width: 150px;
-	}
+	}*/
 
 
 	.mu-navbar .navbar-toggle .icon-bar {
@@ -1705,9 +1708,9 @@ button:focus {
 
 @media (max-width: 360px) {
 
-	.mu-logo img {
+	/*.mu-logo img {
 		width: 120px;
-	}
+	}*/
 
 	.mu-hero-featured-area {
 		padding: 30px 0 30px;
