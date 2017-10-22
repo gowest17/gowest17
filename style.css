@@ -33,15 +33,19 @@ Version: 1.0
 
 body,
 html {
-	overflow-x:hidden;
+
+	height: 100%;
+	width: 100%;
 }
 
 body {
-	font-family: 'Domine', serif;
+	font-family: 'Montserrat', serif;
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
 	color: #1c1b1b;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 ul {
@@ -72,7 +76,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'brutal_typemedium', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	margin-top: 0;
 }
@@ -85,6 +89,7 @@ h1 {
 h2 {
 	font-size: 32px;
 	line-height: 1.13;
+	font-family: 'Domine', serif;
 }
 
 h3 {
@@ -225,6 +230,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	height: 100%;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -236,6 +242,7 @@ button:focus {
 	float: left;
 	opacity: 0.94;
 	width: 100%;
+	height: 100%;
 }
 
 .mu-logo-area {
