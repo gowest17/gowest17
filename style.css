@@ -394,6 +394,12 @@ button:focus {
 	line-height: 20px;
 }
 
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 .mu-navbar .mu-menu li a {
 	color: #333;
 	-webkit-transition: all 0.5s;
