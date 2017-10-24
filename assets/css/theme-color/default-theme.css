@@ -71,8 +71,8 @@ Author URI : http://www.markups.io/
 .mu-register-btn:hover,
 .mu-register-btn:focus,
 .mu-popular-price .mu-register-btn {
-	border: 1px solid #EE3268;
-	background-color: #EE3268;
+	border: 1px solid #6cc0a8;
+	background-color: #6cc0a8;
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {

@@ -42,7 +42,7 @@
 	/*  2. EVENT TIME COUNTER
 	/* ----------------------------------------------------------- */
 
-	$('#mu-event-counter').countdown('2017/12/29').on('update.countdown', function(event) {
+	$('#mu-event-counter').countdown('2017/12/29 17:00').on('update.countdown', function(event) {
 	  var $this = $(this).html(event.strftime(''
 	    + '<span class="mu-event-counter-block"><span>%D</span> days</span> '
 	    + '<span class="mu-event-counter-block"><span>%H</span> hours</span> '
@@ -50,7 +50,9 @@
 	    + '<span class="mu-event-counter-block"><span>%S</span> secs</span>'));
 	});
 
-
+	$('#mu-early-counter').countdown('2017/12/07 23:59').on('update.countdown', function(event) {
+	  var $this = $(this).html(event.strftime('%D'+' days unti early registration closes!'));
+	});
     /* ----------------------------------------------------------- */
 	/*  3. MENU SMOOTH SCROLLING
 	/* ----------------------------------------------------------- */
