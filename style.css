@@ -305,7 +305,7 @@ button:focus {
 .mu-hero-featured-content {
 	display: inline;
 	float: right;
-	margin-top: 50px;
+	margin-top: 20px;
 	text-align: center;
 	width: 100%;
 }
@@ -319,9 +319,9 @@ button:focus {
 
 
 .mu-hero-featured-content h2 {
-	color: #fff;
 	font-size: 25px;
 	font-weight: 300;
+	color: #544352;
 }
 
 .mu-event-date-line {
@@ -336,7 +336,7 @@ button:focus {
 .mu-event-counter-area {
 	display: inline;
 	float: left;
-	margin-top: 50px;
+	margin-top: 30px;
 	width: 100%;
 	font-family: 'nexa_book', sans-serif;
 }
@@ -356,7 +356,6 @@ button:focus {
 	width: 180px;*/
 	text-align: center;
 	font-size: 22px;
-	color: #fff;
 	margin: 0 20px;
 	font-weight: 300;
 }
@@ -1435,7 +1434,7 @@ button:focus {
 	}
 
 	.mu-hero-featured-content h2 {
-		font-size: 18px;
+		font-size: 25px;
 	}
 
 	.mu-event-date-line {
@@ -1623,7 +1622,7 @@ button:focus {
 	}
 
 	.mu-hero-featured-content {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	.mu-hero-featured-content h1 {
@@ -1631,7 +1630,7 @@ button:focus {
 	}
 
 	.mu-hero-featured-content h2 {
-		font-size: 14px;
+		font-size: 22px;
 	}
 
 	.mu-event-date-line {
@@ -1643,7 +1642,7 @@ button:focus {
 	}
 
 	.mu-event-counter-block span {
-		font-size: 18px;
+		font-size: 24px;
 		/*padding-top: 16px;*/
 		line-height: 20px;
 	}
@@ -1651,7 +1650,7 @@ button:focus {
 	.mu-event-counter-block {
 		/*height: 75px;
 		width: 75px;*/
-		font-size: 12px;
+		font-size: 16px;
 		margin: 0 5px;
 	}
 
