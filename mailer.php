@@ -22,7 +22,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "p@pcccki.org";
+        $recipient = "gowest@pcccki.org";
 
         // Set the email subject.
         $subject = "gowest.pcccki.org message from $name";
